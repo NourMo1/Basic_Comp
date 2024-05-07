@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Basic_Comp.srcs/sources_1/new/256_RAM.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/AC_CONTROL.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/AC_REG.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/AC_adderNlogic.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/AR _Control.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/BUS_Control.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/Control_Unit.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/DR_Control.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/Decoder3x8.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/Encoder8x3.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/IR_Control.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/MUX8_x3.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/Memory_control.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/PC_REG.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/PC_control.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/Sequence_counter.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/main.v" \
+"../../../../Basic_Comp.srcs/sources_1/new/seq_counter.v" \
+"../../../../Basic_Comp.srcs/sim_1/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
